@@ -1,0 +1,105 @@
+@use "../../sass/variables" as *;
+
+body {
+  background-color: $body-background;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.lista h1 {
+  text-align: center;
+  color: $header-background-item;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  padding: 5rem;
+}
+
+.itens-da-lista {
+  display: flex;
+  gap: 12rem;
+  padding-bottom: 30px;
+  color: $header-background-item;
+  border-bottom: 4px solid $background-border;
+}
+
+.todo-form {
+  width: 100%;
+}
+
+.add-task {
+ display: flex;
+ align-items: center;
+ gap: 7rem;
+ padding: 12px 0;
+}
+
+.add-task h3 {
+  color: $header-background-item;
+  font-weight: 100;
+}
+
+.add-task input {
+  background-color: $body-background;
+  border: none;
+  color:$header-background-item; 
+  width: 450px;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.add-task img {
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.lista-itens {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1024px;
+}
+
+.itens-lista {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  color: $header-background-item;
+  gap: 10rem;
+}
+
+.itens-lista li {
+  padding-right: 28rem;
+  max-width: 600px;
+}
+
+.lista-itens #check-task {
+  position: fixed;
+} 
+
+.editar-excluir-tasks {
+  position: fixed;
+  margin-left: 32rem;
+}
+
+.editar-excluir-tasks img{
+  padding-right: 2px;
+  width: 22px;
+  cursor: pointer;
+}
+
+
+
+
+

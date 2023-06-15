@@ -1,7 +1,7 @@
 @use "../../sass/variables" as *;
 
-.logo-dnc {
-  width: 200px;
+.logo-dnc  img{
+  width: 120px;
 }
 
 
@@ -22,7 +22,7 @@
   flex-direction: row;
   text-align: center;
   gap: 30px;
-  padding: 4rem 0 0 33rem;
+  padding: 4rem 0 0 35rem;
   background-color: $header-background;
   color: $header-background-item;
   font-weight: 600;

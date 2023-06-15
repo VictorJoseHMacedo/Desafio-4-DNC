@@ -24,7 +24,7 @@ body {
 
 .itens-da-lista {
   display: flex;
-  gap: 10rem;
+  gap: 9.5rem;
   padding-bottom: 20px;
   color: $header-background-item;
   border-bottom: 4px solid $background-border;
@@ -37,7 +37,7 @@ body {
 .add-task {
  display: flex;
  align-items: center;
- gap: 12rem;
+ gap: 8rem;
  padding: 12px 0;
 
 }
@@ -53,6 +53,7 @@ body {
   color:$header-background-item; 
   width: 300px;
   height: 30px;
+
 }
 
 .add-task img {
@@ -76,13 +77,14 @@ body {
   text-align: center;
   list-style-type: none;
   color: $header-background-item;
-  gap: 10rem;
+  gap: 7rem;
 }
 
 .itens-lista li {
-  padding-right: 28rem;
+  padding-right: 22rem;
   max-width: 600px;
 }
+
 
 .lista-itens #check-task {
   position: fixed;
@@ -90,14 +92,15 @@ body {
 
 .editar-excluir-tasks {
   position: fixed;
-  margin-left: 33rem;
+  margin-left: 25rem;
+  gap: 25px;
 }
 
 .editar-excluir-tasks img{
-  padding-right: 5px;
-  width: 22px;
+  width: 17px;
   cursor: pointer;
 }
+
 
 
 

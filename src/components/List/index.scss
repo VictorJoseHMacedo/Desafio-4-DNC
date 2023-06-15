@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+
 }
 
 .lista h1 {
@@ -30,9 +30,6 @@ body {
   border-bottom: 4px solid $background-border;
 }
 
-.todo-form {
-  width: 100%;
-}
 
 .add-task {
  display: flex;
@@ -62,11 +59,8 @@ body {
 
 .lista-itens {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 120rem;
 }
 
 .itens-lista {
@@ -77,28 +71,22 @@ body {
   text-align: center;
   list-style-type: none;
   color: $header-background-item;
-  gap: 7rem;
+  gap: 9.5rem;
 }
 
 .itens-lista li {
-  padding-right: 22rem;
+  text-align: left;
   max-width: 600px;
 }
 
 
-.lista-itens #check-task {
-  position: fixed;
-} 
-
 .editar-excluir-tasks {
-  position: fixed;
-  margin-left: 25rem;
-  gap: 25px;
+  padding-left: 2rem;
 }
 
 .editar-excluir-tasks img{
-  width: 17px;
   cursor: pointer;
+  width: 14px;
 }
 
 
